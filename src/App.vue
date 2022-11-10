@@ -1,20 +1,15 @@
 
 <template>
-  <div>
-    <h1>{{ message }}</h1>
-  </div>
+<HeaderComponent/>
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      message: 'La mia prima app con Vite!'
-    }
-  },
-  methods: {
+import HeaderComponent from './components/HeaderComponent.vue'
 
-  },
+export default {
+    components: {
+      HeaderComponent
+    }
 }
 </script>
 
